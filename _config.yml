@@ -3,6 +3,8 @@ description: 乱七八糟种种
 
 theme: null
 
+markdown: kramdown
+
 # debug:
 #   compress: true
 #   dist: false
