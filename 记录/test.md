@@ -3,7 +3,7 @@ sort: 1
 ---
 
 
-# 随机变量函数的p.d.f.
+# 例题：随机变量函数的p.d.f.
 
 * 例题：$$X$$ has p.d.f. $$f(x)$$, what is p.d.f. of $$Y=aX+b \ (a>0)$$?
 
