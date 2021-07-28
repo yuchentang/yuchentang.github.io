@@ -2,20 +2,6 @@
 sort: 1
 ---
 
-<head>
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-</head>
-<body>
-    <div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: 'vMyJmm66vLDlv5NhBWsf72ak-MdYXbMMI',
-            appKey: 'N7XcLbK23w0Kv67lzK3zNS5z'
-        })
-    </script>
-</body>
-
 
 # 在博客中嵌入XMind思维导图
 
@@ -30,3 +16,13 @@ sort: 1
 ```html
 <iframe src="https://www.xmind.net/embed/******" width="900px" height="540px" frameborder="0" scrolling="no"></iframe>
 ```
+
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<div id="vcomments"></div>
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'vMyJmm66vLDlv5NhBWsf72ak-MdYXbMMI',
+		appKey: 'N7XcLbK23w0Kv67lzK3zNS5z'
+	})
+</script>

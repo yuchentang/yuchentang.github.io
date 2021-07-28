@@ -9,11 +9,11 @@ markdown: kramdown
 # You can get your appid and appkey from https://leancloud.app
 # more info please open https://valine.js.org
 
-valine:
+valine_comment:
   enable: true
   appid: vMyJmm66vLDlv5NhBWsf72ak-MdYXbMMI
   appkey: N7XcLbK23w0Kv67lzK3zNS5z
-  placeholder: 在此处留言 # comment box placeholder
+  placeholder: "Comment Here"
 
 # debug:
 #   compress: true
