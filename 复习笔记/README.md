@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# 记录
+# 复习笔记
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}

@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# 记录
+# 博客搭建
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
