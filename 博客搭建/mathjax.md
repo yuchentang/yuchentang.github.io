@@ -7,7 +7,7 @@ sort: 2
 
 没想到在**Markdown**中写的风生水起的$\LaTeX$公式，网页没法渲染。经过一些查询，决定加载**mathjax**这个渲染器。
 
-当然，经过对比发现了该博客的最新框架中涵盖了**mathjax.liquid**文件，但将其内容改成了如下，因为其原版的无法渲然行内公式，即以`$...$`形式存在的公式。
+当然，经过对比发现了该博客的最新框架中涵盖了**mathjax.liquid**文件，但将其内容改成了如下，因为其原始版本无法渲染行内公式，即以`$...$`形式存在的公式。
 
 ```html
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
