@@ -5,6 +5,19 @@ theme: null
 
 markdown: kramdown
 
+comments:
+  provider: valine # false (default), "disqus", "gitalk", "valine", "custom"
+
+
+  ## Valine
+  # please refer to https://valine.js.org/en/ for more info.
+  valine:
+    app_id      : vMyJmm66vLDlv5NhBWsf72ak-MdYXbMMI # LeanCloud App id
+    app_key     : N7XcLbK23w0Kv67lzK3zNS5z # LeanCloud App key
+    placeholder : 歡迎討論和加入你想法 # Prompt information
+    visitor     : # false (default)
+    meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
+
 # debug:
 #   compress: true
 #   dist: false
