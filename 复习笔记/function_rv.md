@@ -7,7 +7,7 @@ sort: 1
 
 ## 例题1
 
-$X$ has p.d.f. $f(x)$, what is p.d.f. of $Y=aX+b \ (a>0)$?
+$X$ has p.d.f. $f(x)$, what is p.d.f. of $Y=aX+b (a>0)$?
 
 Solution: 通过c.d.f.作为桥梁来得到随机变量函数的p.d.f.
 
@@ -31,7 +31,7 @@ $$
 
 ## 例题2
 
-X $\perp \!\!\! \perp$ Y，求$Z=X+Y$的分布？
+X $\perp\,\!\,\!\,\!\,\!\,\!\,\!\,\!\!\!\!\perp$ Y，求 $Z=X+Y$ 的分布？
 
 Solution:
 
