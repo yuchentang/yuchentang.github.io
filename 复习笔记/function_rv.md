@@ -30,7 +30,7 @@ f_Y(y)=F'_Y(y) &=\frac{d}{dy}F_x(\frac{y-b}{a}) \\
 $$
 
 ## 例题2
-``
+
 X $\perp \!\!\! \perp$ Y，求$Z=X+Y$的分布？
 
 Solution:
