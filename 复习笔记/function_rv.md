@@ -34,6 +34,7 @@ $$
 X $\perp \!\!\! \perp$ Y，求$Z=X+Y$的分布？
 
 Solution:
+
 $$
 \begin{align}
 F_Z(a)&=P(Z\leq a)=P(X+Y\leq a) \\
