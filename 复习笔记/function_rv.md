@@ -44,6 +44,7 @@ F_Z(a)&=P(Z\leq a)=P(X+Y\leq a) \\
 $$
 
 于是有
+
 $$
 F'_Z(a)=\int_{-\infty}^{+\infty}f_X(x)f_Y(a-x)dx \triangleq f_Z(a)
 $$
