@@ -4,4 +4,4 @@
 
 下面附上刚开始准备的思维导图好了。害，光是想办法嵌入一个思维导图都花光了我的心血，哈哈哈哈哈，半途而废预定。
 
-<iframe src="https://www.xmind.net/m/DEmTmE"></iframe>
+<iframe src="https://www.xmind.net/m/DEmTmE" frameborder = 0></iframe>
