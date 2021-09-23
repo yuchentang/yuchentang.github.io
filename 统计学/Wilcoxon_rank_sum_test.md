@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-# Plug-in Estimator
+# Wilcoxon Rank-Sum Tests
 
 [Mann-Whitney U or Wilcoxon Rank-Sum Tests](https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/PASS/Mann-Whitney_U_or_Wilcoxon_Rank-Sum_Tests.pdf)
 
