@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# 复习笔记
+# Statistics & Machine Learning
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
