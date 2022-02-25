@@ -24,13 +24,13 @@ E.g. An email spam filter.
 Four major categories:
 
 - Supervised learning: 
- - k-Nearest Neighbors (KNN)
- - Linear Regression
- - Logistic Regression
- - Support Vector Machines (SVMs)
- - Decision Trees and Random Forests
- - Neural networks ^[1]
- - Unsupervised learning
+	- k-Nearest Neighbors (KNN)
+   - Linear Regression
+   - Logistic Regression
+   - Support Vector Machines (SVMs)
+   - Decision Trees and Random Forests
+   - Neural networks ^[1]
+   - Unsupervised learning
 
 - Semisupervised learning
 - Reinforcement Learning.
