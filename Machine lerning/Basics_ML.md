@@ -18,3 +18,20 @@ E.g. An email spam filter.
 - The task T: flag spam for new emails; 
 - The experience E is the training data;
 - The performance measure P: needs to be defined. For example: the ratio of correctly classified emails (accuracy).
+
+# Categories
+
+Four major categories:
+
+- Supervised learning: 
+ - k-Nearest Neighbors (KNN)
+ - Linear Regression
+ - Logistic Regression
+ - Support Vector Machines (SVMs)
+ - Decision Trees and Random Forests
+ - Neural networks ^[1](asdasd)
+- Unsupervised learning
+
+- Semisupervised learning
+- Reinforcement Learning.
+
