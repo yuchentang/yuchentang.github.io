@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# Statistics & Machine Learning
+# Statistics
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
