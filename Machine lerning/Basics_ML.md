@@ -29,9 +29,10 @@ Four major categories:
  - Logistic Regression
  - Support Vector Machines (SVMs)
  - Decision Trees and Random Forests
- - Neural networks ^[1](asdasd)
-- Unsupervised learning
+ - Neural networks ^[1]
+ - Unsupervised learning
 
 - Semisupervised learning
 - Reinforcement Learning.
 
+[^1]: Some neural network architectures can be unsupervised, such as autoencoders and restricted Boltzmann machines. They can also be semisupervised, such as in deep belief networks and unsupervised pretraining.
