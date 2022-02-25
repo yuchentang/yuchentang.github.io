@@ -2,7 +2,7 @@
 sort: 4
 ---
 
-# Some Tips
+# Some ML
 
 ## Curse of Dimensionality
 
