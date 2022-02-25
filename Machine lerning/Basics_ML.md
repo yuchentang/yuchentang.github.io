@@ -2,7 +2,9 @@
 sort: 1
 ---
 
-# What is Machine Learning?
+# Some Basics of Machine Learning
+
+## What is Machine Learning?
 
 > [Machine Learning is the] field of study that gives computers the ability to learn without being explicitly programmed.
 > 
@@ -15,24 +17,49 @@ sort: 1
 
 E.g. An email spam filter. 
 
-- The task T: flag spam for new emails; 
-- The experience E is the training data;
-- The performance measure P: needs to be defined. For example: the ratio of correctly classified emails (accuracy).
+- The task T: to flag spam for new emails
+- The experience E: the training data
+- The performance measure P: needs to be defined; E.g. the ratio of correctly classified emails (accuracy)
 
-# Categories
+## Categories of Machine Learning
 
 Four major categories:
 
-- Supervised learning: 
+- Supervised learning
    - k-Nearest Neighbors (KNN)
    - Linear Regression
    - Logistic Regression
    - Support Vector Machines (SVM)
    - Decision Trees and Random Forests
    - Neural networks [^1]
-   - Unsupervised learning
+   - 
+[^1]: Some neural network architectures can be unsupervised, such as autoencoders and restricted Boltzmann machines. They can also be semisupervised, such as in deep belief networks and unsupervised pretraining.
+   
+- Unsupervised learning
+	- Clustering 
+		- K-Means 
+		- DBSCAN 
+		- Hierarchical Cluster Analysis (HCA)
+	- Anomaly detection and novelty detection
+		- One-class SVM
+		- Isolation Forest
+	- Visualization and dimensionality reduction
+		- Principal Component Analysis (PCA)
+		- Kernel PCA
+		- Locally Linear Embedding (LLE)
+		- t-Distributed Stochastic Neighbor Embedding (t-SNE)
+	- Association rule learning
+		- Apriori
+		- Eclat
 
 - Semisupervised learning
 - Reinforcement Learning
 
-[^1]: Some neural network architectures can be unsupervised, such as autoencoders and restricted Boltzmann machines. They can also be semisupervised, such as in deep belief networks and unsupervised pretraining.
+Another criterion: whether or not be incapable of learning incrementally.
+
+- Batch learning
+- Online learning
+
+## THE Unreasoballe Effectiveness of Data
+
+![](./documents/github/yuchentang.github.io/assets/images/banco_2001.png)
