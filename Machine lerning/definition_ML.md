@@ -8,6 +8,13 @@ sort: 1
 > 
 > -- Arthur Samuel, 1959
 
+
 > A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.
 > 
 > -- Tom Mitchell, 1997
+
+E.g. An email spam filter. 
+
+- The task T: flag spam for new emails; 
+- The experience E is the training data;
+- The performance measure P: needs to be defined. For example: the ratio of correctly classified emails (accuracy).
