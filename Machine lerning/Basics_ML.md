@@ -62,4 +62,6 @@ Another criterion: whether or not be incapable of learning incrementally.
 
 ## THE Unreasoballe Effectiveness of Data
 
+Michele Banko and Eric Brill (2001) : Very different Machine Learning algorithms, including fairly simple ones, performed almost identically well on a complex problem of natural language disambiguation 8 once they were given enough data.
+
 ![banko_2001](https://github.com/yuchentang/yuchentang.github.io/blob/main/assets/images/banko_2001.png?raw=true)
