@@ -62,4 +62,4 @@ Another criterion: whether or not be incapable of learning incrementally.
 
 ## THE Unreasoballe Effectiveness of Data
 
-![](./documents/github/yuchentang.github.io/assets/images/banco_2001.png)
+![banko_2001](https://github.com/yuchentang/yuchentang.github.io/tree/main/assets/images/banko_2001.png)
