@@ -24,15 +24,13 @@ E.g. An email spam filter.
 Four major categories:
 
 - Supervised learning: 
-	- k-Nearest Neighbors (KNN)
+   - k-Nearest Neighbors (KNN)
    - Linear Regression
    - Logistic Regression
-   - Support Vector Machines (SVMs)
+   - Support Vector Machines (SVM)
    - Decision Trees and Random Forests
-   - Neural networks ^[1]
+   - Neural networks [^1](Some neural network architectures can be unsupervised, such as autoencoders and restricted Boltzmann machines. They can also be semisupervised, such as in deep belief networks and unsupervised pretraining)
    - Unsupervised learning
 
 - Semisupervised learning
 - Reinforcement Learning.
-
-[^1]: Some neural network architectures can be unsupervised, such as autoencoders and restricted Boltzmann machines. They can also be semisupervised, such as in deep belief networks and unsupervised pretraining.
