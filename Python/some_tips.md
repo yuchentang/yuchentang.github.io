@@ -48,4 +48,5 @@ print(x2)
 #  [ 1  6  7  7]]
 ```
 > This default behavior is actually quite useful: it means that when we work with large datasets, we can access and process pieces of these datasets without the need to copy the underlying data buffer.
+> 
 > Jake VanderPlas, *Python Data Science Handbook*
