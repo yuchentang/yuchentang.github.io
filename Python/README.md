@@ -1,8 +1,8 @@
 ---
-sort: 8
+sort: 
 ---
 
-# This is an incredibly long caption for a long menu
+# Python
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
