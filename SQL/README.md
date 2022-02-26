@@ -4,4 +4,4 @@ sort: 3
 
 # SQL
 
-{% include list.liquid all=true %}
+{% raw %}{% include list.liquid all=true %}{% endraw %}
