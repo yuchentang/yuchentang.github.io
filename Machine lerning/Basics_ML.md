@@ -32,7 +32,7 @@ Four major categories:
    - Support Vector Machines (SVM)
    - Decision Trees and Random Forests
    - Neural networks [^1]
-   - 
+
 [^1]: Some neural network architectures can be unsupervised, such as autoencoders and restricted Boltzmann machines. They can also be semisupervised, such as in deep belief networks and unsupervised pretraining.
    
 - Unsupervised learning
@@ -65,3 +65,7 @@ Another criterion: whether or not be incapable of learning incrementally.
 Michele Banko and Eric Brill (2001) : Very different Machine Learning algorithms, including fairly simple ones, performed almost identically well on a complex problem of natural language disambiguation 8 once they were given enough data.
 
 <img src="https://github.com/yuchentang/yuchentang.github.io/blob/main/assets/images/banko_2001.png?raw=true" alt="banko_2001" width="500"/>
+
+## No Free Lunch Theorem (NFL)
+
+All optimization algorithms perform equally well when their performance is averaged across all possible problems.
