@@ -8,7 +8,7 @@ sort: 3
 
 $$\sigma(x) = \frac{1}{1+e^{-x}}=\frac{e^x}{1+e^x}$$
 
-<img src="https://github.com/yuchentang/yuchentang.github.io/blob/main/assets/images/sigmoid.png?raw=true" alt="sigmoid" width="500"/>
+<img src="https://github.com/yuchentang/yuchentang.github.io/blob/main/assets/images/sigmoid.png?raw=true">
 
 ## Logistic Regression Model
 
