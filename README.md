@@ -1,7 +1,5 @@
-# 一切从数据分析复习之路开始讲起
+# Towards A Data Scientist Career
 
-之前从来没有建立过博客，也没用想过好好的整理一下自己的所得。在制作数据分析师的复习思路的思维导图的时候，突发奇想是不是可以做一个半公开的平台来记录一下自己的复习思路，更有甚者，以后可以扩展一些其他的内容板块。当然啦，大概率是半途而废的。
-
-下面附上刚开始准备的思维导图好了。害，光是想办法嵌入一个思维导图都花光了我的心血，哈哈哈哈哈，半途而废预定。
+I am a master student majoring in statistics at Columbia University. I am planning to find a data analyst/data scientist related job. I would update my notes on this website, and I hope it is worth it. 
 
 <iframe src="https://www.xmind.net/embed/iR7YAt" width="900px" height="540px" frameborder="0" scrolling="no"></iframe>
