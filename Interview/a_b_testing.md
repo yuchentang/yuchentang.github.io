@@ -36,6 +36,7 @@ sort: 3
 
 ## Sample Size Determination
 
+
 $$n\approx\frac{2\sigma^2(Z_{\alpha/2}+Z_\beta)^2}{(\mu_c-\mu_t)^2}$$
 
 ## Choose the Right Metrics
