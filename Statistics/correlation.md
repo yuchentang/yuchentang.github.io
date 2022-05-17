@@ -22,6 +22,16 @@ Given paired data $\{(x_{1},y_{1}),...,(x_{n},y_{n})\}$ consisting of $n$ pairs,
 
 $$r_{xy}=\frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum_{i=1}^n(x_i-\bar{x})^2}\sqrt{\sum_{i=1}^n(y_i-\bar{y})^2}}$$
 
+### P-value
+For Pearson's correlation coefficient:
+$$
+H_0: \rho = 0 \\
+H_1: \rho \neq 0
+$$
+To calculate the p-value:
+$$t=\frac{r\sqrt{(n-2)}}{\sqrt{1-r^2}}$$
+The p-value is $2 \times P(T > t)$ where T follows a t-distribution with n – 2 degrees of freedom.
+
 ### Drawbacks
 - Only include two sets of data
 - Only shows the linear relationship
