@@ -72,7 +72,7 @@ SELECT teacher.name, COALESCE(dept.name, 'None')
 FROM teacher LEFT JOIN dept ON teacher.dept=dept.id
 ```
 
-## `ROW_NUMBER()`, `RANK()`, `DENSE_RANK`
+## `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`
 ### Using ROW_NUMBER() for finding nth highest value per group
 
 The following example shows you how to find the employees whose have the highest salary in their departments:

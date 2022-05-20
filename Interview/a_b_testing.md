@@ -98,6 +98,10 @@ Significance / # of tests
 
 Conservative
 
+## Some Other Materials
+- Click-through rate (CTR): $\frac{Number\ of\ clicks}{Number\ of\ page\ views}$
+
+ V.S. click-through probability: $\frac{Unique\ visitors\ who\ click}{Unique\ visitors\ to\ page}$
 
 ## References
 
