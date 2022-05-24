@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 3
 ---
 
 
@@ -264,19 +264,6 @@ WHERE ConsNums.CNs = "Y";
 ## `JOIN` Without Using `ON` Keyword
 
 https://tableplus.com/blog/2019/09/sql-join-without-on.html
-
-## 日期函数
-
-## 字符串函数
-
-* 字符串截取
-
- `LEFT(str, n)`: 返回字符串最左边的x个字符
-
- `RIGHT(str, n)`: 返回字符串最左边的x个字符
-
- `SUBSTIRING(str, n)`: 返回字符串最左边的x个字符
-
 
 
 ## 参考资料
