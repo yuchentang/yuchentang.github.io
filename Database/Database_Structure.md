@@ -30,3 +30,6 @@ Different OLTP databases can be the source of aggregated data for OLAP, and they
 |Usefulness |It helps to control and run fundamental business tasks.  |It helps with planning, problem-solving, and decision support.|
 |Purpose |Designed for real time business operations.  |Designed for analysis of business measures by category and attributes.|
 
+# Star Schema
+
+The star schema consists of one or more fact tables referencing any number of dimension tables.
