@@ -13,6 +13,29 @@ SET column1 = value1, column2 = value2, ...
 WHERE condition;
 ```
 
+## `LIMIT`
+
+The `LIMIT` in MySQL is like
+
+```sql
+SELECT 
+	select_list
+FROM
+	table_name
+WHERE 
+	condition
+LIMIT [offset,] row_count;
+```
+
+Also the LIMIT part can also be written as
+
+```sql
+LIMIT row_count OFFSET offset
+```
+
+**LIMIT & DISTINCT clauses: unique rows**
+
+
 ## Modulo Operation: `MOD` or `%`
 
 Return the remainder of x/y:

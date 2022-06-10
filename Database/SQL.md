@@ -88,7 +88,7 @@ FROM
     (
         SELECT 
             department_name,
-            `ROW_NUMBER()` OVER (
+            ROW_NUMBER() OVER (
                 PARTITION BY department_name
                 ORDER BY salary DESC) row_num, 
             first_name, 
@@ -265,8 +265,74 @@ WHERE ConsNums.CNs = "Y";
 
 https://tableplus.com/blog/2019/09/sql-join-without-on.html
 
+## `IN` With Multiple Lines V.S. Window Function
+
+Problem:
+
+An table called **dept_emp** is like:
+
+|emp_no |dept_no |from_date  |to_date    |
+|:------|:-------|:----------|:----------|
+|10001  |d001    |1986-06-26 |9999-01-01 |
+|10002  |d001    |1996-08-03 |9999-01-01 |
+|10003  |d002.   |1996-08-03 |9999-01-01 |
+
+**salaries** table is like:
+
+|emp_no |salary |from_date  |to_date    |
+|:------|:------|:----------|:----------|
+|10001  |88958  |2002-06-22 |9999-01-01 |
+|10002  |72527  |2001-08-02 |9999-01-01 |
+|10003  |92527  |2001-08-02 |9999-01-01 |
+
+Find out the employees with the highest salaries withn each department, and order by dept_no, which is like:
+
+|dept_no |emp_no |maxSalary |
+|:-------|:------|:---------|
+|d001    |10001  |88958     |
+|d002    |10003  |92527     |
+
+My answers (2 Methods)
+The first is to find out the max salary for each department and then use `IN` for multiple columns.
+
+```sql
+WITH cte AS(
+    SELECT dept_emp.emp_no, dept_emp.dept_no, salaries.salary
+    FROM dept_emp INNER JOIN salaries ON dept_emp.emp_no=salaries.emp_no
+)
+
+SELECT dept_no, emp_no, salary AS maxSalary
+FROM cte
+WHERE (dept_no, salary) IN
+(
+    SELECT dept_no, MAX(salary) AS salary
+    FROM cte
+    GROUP BY dept_no
+)
+ORDER BY dept_no
+```
+
+THe second method is to use the window function `RANK() OVER()`
+
+```sql
+WITH cte AS(
+    SELECT dept_emp.emp_no, dept_emp.dept_no, salaries.salary
+    FROM dept_emp INNER JOIN salaries ON dept_emp.emp_no=salaries.emp_no
+)
+
+SELECT dept_no, emp_no, salary AS maxSalary
+FROM
+(
+    SELECT *, RANK() OVER(PARTITION BY dept_no 
+                          ORDER BY salary DESC) AS rank_within_dept
+    FROM cte
+) AS t
+WHERE rank_within_dept = 1
+ORDER BY dept_no
+```
+Don't forget the alias of the subquery.
 
 ## 参考资料
 
-[1] [Leetcode: https://leetcode.com/problemset/database/](https://leetcode.com/problemset/database/)
+[1] [Leetcode Database Problemset](https://leetcode.com/problemset/database/)
 
