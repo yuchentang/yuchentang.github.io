@@ -5,12 +5,52 @@ sort: 2
 
 # SQL Basics
 
+## `CREATE` A Table
+
+An example:
+
+```sql
+create table tutorials_tbl(
+   tutorial_id INT NOT NULL AUTO_INCREMENT,
+   tutorial_title VARCHAR(100) NOT NULL,
+   tutorial_author VARCHAR(40) NOT NULL,
+   submission_date DATE,
+   PRIMARY KEY ( tutorial_id )
+);
+```
+
+## `INSERT`
+
+Let's insert multiple rows in MySQL. The column names of actor can be dropped if all columns are included.
+
+```sql
+INSERT INTO 
+	actor(actor_id, first_name, last_name, last_update)
+VALUES
+    (1, 'PENELOPE', 'GUINESS', '2006-02-15 12:34:33'),
+    (2, 'NICK', 'WAHLBERG', '2006-02-15 12:34:33');
+```
+
+In MySQL, When using `INSERT IGNORE INTO table VALUES...`: 如果存在数据,则忽略。
+
+```sql
+insert ignore into actor 
+values("3","ED","CHASE","2006-02-15 12:34:33");
+```
+
 ## `UPDATE`
 
 ```sql
 UPDATE table_name
 SET column1 = value1, column2 = value2, ...
 WHERE condition;
+```
+
+## ADD A Column
+
+```sql
+ALTER TABLE actor
+ADD (create_date datetime NOT NULL DEFAULT '2020-10-01 00:00:00');
 ```
 
 ## `LIMIT`
