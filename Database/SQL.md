@@ -5,10 +5,6 @@ sort: 3
 
 # SQL小结
 
-## Creating, Dropping, and Altering a Table
-
-## Inserting, Deleting, and Updating a Row
-
 ## `CASE WHEN`
 
 Examples:
@@ -331,6 +327,13 @@ WHERE rank_within_dept = 1
 ORDER BY dept_no
 ```
 Don't forget the alias of the subquery.
+
+## Find the number of occurence of one character
+
+```sql
+SELECT id, LENGTH(string) - LENGTH(REPLACE(string, ",", "")) AS cnt
+FROM strings;
+```
 
 ## 参考资料
 

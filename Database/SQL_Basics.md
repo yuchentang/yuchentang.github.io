@@ -46,6 +46,14 @@ SET column1 = value1, column2 = value2, ...
 WHERE condition;
 ```
 
+Using `REPLACE` when it is associated to the primary key
+
+```sql
+UPDATE titles_test
+SET emp_no = REPLACE(emp_no, 10001, 10005)
+WHERE id=5 AND emp_no=10001;
+```
+
 ## ADD A Column
 
 ```sql
@@ -91,6 +99,19 @@ Return the remainder of x/y:
 - concatenate strings
 
 	`CONCAT(...,...,...)`
+	
+	`GROUP_CONCAT()`
+	
+	E.g.
+		
+	```sql
+	mysql> 
+	SELECT student_name,
+	GROUP_CONCAT(DISTINCT test_score
+	             ORDER BY test_score DESC SEPARATOR ' ')
+	FROM student
+	GROUP BY student_name;
+	```
 
 - 字符串截取
 
@@ -99,6 +120,15 @@ Return the remainder of x/y:
 	`RIGHT(str, n)`
 	
 	`SUBSTRING(string, start, length)`: length is optional. The number of characters to extract. If omitted, the whole string will be returned (from the start position)
+
+- `REPLACE()` Function
+
+	MySQL REPLACE() replaces all the occurrences of a substring within a string.
+
+	Syntax:
+
+	`REPLACE(str, find_string, replace_with)`
+
  
 ## Wildcard
 
