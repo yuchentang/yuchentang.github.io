@@ -81,8 +81,15 @@ Also the LIMIT part can also be written as
 LIMIT row_count OFFSET offset
 ```
 
-**LIMIT & DISTINCT clauses: unique rows**
+**LIMIT + DISTINCT clauses: unique rows**
 
+## `[NOT] EXISTS`
+
+```sql
+select * from employees e
+where not exists
+(select emp_no from dept_emp d where d.emp_no = e.emp_no);
+```
 
 ## Modulo Operation: `MOD` or `%`
 

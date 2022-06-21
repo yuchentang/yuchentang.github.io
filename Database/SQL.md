@@ -335,6 +335,28 @@ SELECT id, LENGTH(string) - LENGTH(REPLACE(string, ",", "")) AS cnt
 FROM strings;
 ```
 
+## Cumulative Total
+
+Solution: self join by condition like `s1.xxx >= s2.xxx`
+
+E.g.
+
+Output:
+
+|emp_no |salary |running_total |
+|:------|:------|:-------------|
+|10001 |88958 |88958|
+|10002 |72527 |161485|
+|10003 |43311 |204796|
+|......|
+
+```sql
+SELECT s1.emp_no, s1.salary, SUM(s2.salary)
+FROM salaries s1 JOIN salaries s2 ON s1.emp_no >= s2.emp_no
+WHERE s1.to_date = '9999-01-01' AND s2.to_date = '9999-01-01'
+GROUP BY s1.emp_no, s1.salary
+```
+
 ## 参考资料
 
 [1] [Leetcode Database Problemset](https://leetcode.com/problemset/database/)
