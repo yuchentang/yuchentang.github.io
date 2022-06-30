@@ -357,6 +357,36 @@ WHERE s1.to_date = '9999-01-01' AND s2.to_date = '9999-01-01'
 GROUP BY s1.emp_no, s1.salary
 ```
 
+OR using window function
+
+SUM() OVER()
+
+## 中位数 Median
+
+首先我们需要知道:当某一数的正序和逆序累计均大于整个序列的数字个数的一半即为中位数
+
+比如:
+
+A A B B C C D D 
+
+1 2 3  4  5 6  7 8
+
+8 7 6  5  4  3 2 1
+
+那么上面的4，5以及5，4就是中位数，如果是奇数的话，就只有1个
+
+再比如
+
+A2个，B3个，C5个，D2个，
+
+正序2，5，10，12
+
+倒序12，10，7，2
+
+正序和12，大于等于6的，为C,D，
+
+逆序和为12，大于等于6的为ABC，所以最后中位数为C
+
 ## 参考资料
 
 [1] [Leetcode Database Problemset](https://leetcode.com/problemset/database/)

@@ -99,9 +99,21 @@ Return the remainder of x/y:
 - `x MOD y`
 - `x % y`
 
-## 日期函数
+## 日期函数 Functions About Dates
 
-## 字符串函数
+- `YEAR()`, `MONTH()`, `DAY()`
+- `DATE_FORMAT(date, '%Y-%m') `
+
+```sql
+SELECT job, DATE_FORMAT(date, '%Y-%m') mon, SUM(num) cnt
+FROM resume_info
+WHERE YEAR(date) = 2025
+GROUP BY job, DATE_FORMAT(date, '%Y-%m')
+ORDER BY mon DESC, cnt DESC
+```
+- `CURDATE()`: current date
+
+## 字符串函数 Functions About Strings
 
 - concatenate strings
 
