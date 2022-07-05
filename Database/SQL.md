@@ -2,7 +2,6 @@
 sort: 3
 ---
 
-
 # SQL小结
 
 ## `CASE WHEN`
