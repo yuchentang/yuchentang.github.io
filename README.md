@@ -4,9 +4,7 @@ I am a master student majoring in statistics at Columbia University. I am planni
 
 Here is my resume.
 
-<object data="assets/files/Yuchen Tang-ColumbiaU-StatisticsMA.pdf" type="application/pdf" width="100%" height="900px">
-	<embed src="assets/files/Yuchen Tang-ColumbiaU-StatisticsMA.pdf">
-	</embed>
+<object data="assets/files/Yuchen Tang-ColumbiaU-StatisticsMA.pdf" type="application/pdf" width="100%" height="850px">
 </object>
 
 <iframe src="https://www.xmind.net/embed/iR7YAt" width="900px" height="540px" frameborder="0" scrolling="no"></iframe>
