@@ -28,7 +28,9 @@ ORDER BY
 END);
 ```
 
-Treat the whole `CASE WHEN` part as a column. It can even be combined with aggregate functions. E.g.
+Treat the whole `CASE WHEN` part as a column. It can even be combined with aggregation functions. 
+
+E.g.
 
 ```sql
 SELECT AVG(
@@ -38,29 +40,18 @@ SELECT AVG(
 FROM products
 ```
 
-## 日期函数
-
-## 字符串函数
-
-* 字符串截取
-
- `LEFT(str, n)`: 返回字符串最左边的x个字符
-
- `RIGHT(str, n)`: 返回字符串最左边的x个字符
-
- `SUBSTIRING(str, n)`: 返回字符串最左边的x个字符
-
-[//]: # (```sql SELECT * FROM```)
-
 ## `COALESCE` Function
 
-```sql
-COALESCE(x,y,z) = x if x is not NULL
-COALESCE(x,y,z) = y if x is NULL and y is not NULL
-COALESCE(x,y,z) = z if x and y are NULL but z is not NULL
-COALESCE(x,y,z) = NULL if x and y and z are all NULL 
-```
-E.g. Use the COALESCE function and a LEFT JOIN to print the teacher name and department name. Use the string 'None' where there is no department.
+
+`COALESCE(x,y,z)` = x if x is not NULL
+
+`COALESCE(x,y,z)` = y if x is NULL and y is not NULL
+
+`COALESCE(x,y,z)` = z if x and y are NULL but z is not NULL
+
+`COALESCE(x,y,z)` = NULL if x and y and z are all NULL 
+
+E.g. Use the `COALESCE()` function and a `LEFT JOIN` to print the teacher name and department name. Use the string 'None' where there is no department.
 
 ```sql
 SELECT teacher.name, COALESCE(dept.name, 'None')
@@ -256,7 +247,34 @@ FROM (
 WHERE ConsNums.CNs = "Y";
 ```
 
+## 'Consecutive' Problems
+
+E.g.
+
+创作者回答情况表answer\_tb如下（其中answer\_date表示创作日期、author\_id指创作者编号、issue\_id指回答问题编号）：
+
+|answer\_date |author\_id |issue\_id|
+|:----------|:------|:--------|
+|2021-11-01 |101 |E001 |
+|2021-11-01 |101 |E002 |
+|2021-11-01 |102 |C003 |
+|2021-11-01 |103 |P001 |
+|2021-11-02 |101 |P001 |
+|2021-11-02 |110 |C001 |
+|2021-11-03 |101 |C002|
+|...              |      |        |
+请你统计最大连续回答问题的天数大于等于3天的用户及其等级（若有多条符合条件的数据，按author\_id升序排序），以上例子的输出结果如下：
+
+|author_id |days_cnt |
+|:-------|:-------|
+|101         |3            |
+|...           |              |
+
+
+
 ## `JOIN` Without Using `ON` Keyword
+
+Cartesian product will be returned.
 
 https://tableplus.com/blog/2019/09/sql-join-without-on.html
 
