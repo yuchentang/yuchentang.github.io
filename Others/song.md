@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# 《滇东幻想症》By 本能实业 DEMO
+# 《滇东幻想症》By 本能實業 DEMO
 
 <!-- require APlayer -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">

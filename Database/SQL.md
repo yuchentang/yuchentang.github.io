@@ -270,6 +270,25 @@ E.g.
 |101         |3            |
 |...           |              |
 
+Solution:
+
+```sql
+SELECT t3.author_id, author_tb.author_level, t3.days_cnt
+FROM (
+    SELECT author_id, start_date, COUNT(*) AS days_cnt
+    FROM (
+        SELECT DISTINCT answer_date, author_id, DATE_SUB(answer_date, INTERVAL num DAY) AS start_date
+        FROM (
+            SELECT answer_date, author_id, DENSE_RANK() OVER(PARTITION BY author_id ORDER BY answer_date) AS num
+            FROM answer_tb
+        ) AS t1
+    ) AS t2
+    GROUP BY author_id, start_date
+    HAVING days_cnt >= 3
+) AS t3
+LEFT JOIN author_tb ON t3.author_id=author_tb.author_id
+ORDER BY t3.author_id
+```
 
 
 ## `JOIN` Without Using `ON` Keyword
@@ -403,6 +422,53 @@ A2个，B3个，C5个，D2个，
 正序和12，大于等于6的，为C,D，
 
 逆序和为12，大于等于6的为ABC，所以最后中位数为C
+
+## 各科目同时在线人数
+
+上课情况表attend\_tb如下（其中user\_id表示用户编号、course\_id代表课程编号、in\_datetime表示进入直播间的时间、out\_datetime表示离开直播间的时间）：
+
+|user_id |course_id |in_datetime             |out_datetime            |
+|:-----|:--------|:----------------|:----------------|
+|100     |1              |2021-12-01 19:00:00 |2021-12-01 19:28:00 |
+|100     |1              |2021-12-01 19:30:00 |2021-12-01 19:53:00 |
+|101      |1              |2021-12-01 19:00:00 |2021-12-01 20:55:00 |
+|102     |1              |2021-12-01 19:00:00 |2021-12-01 19:05:00 |
+|104     |1              |2021-12-01 19:00:00 |2021-12-01 20:59:00 |
+|101     |2              |2021-12-02 19:05:00 |2021-12-02 20:58:00 |
+|102 |2 |2021-12-02 18:55:00 |2021-12-02 21:00:00 |
+|104 |2 |2021-12-02 18:57:00 |2021-12-02 20:56:00 |
+|107 |2 |2021-12-02 19:10:00 |2021-12-02 19:18:00 |
+|...   |   |                              |                              |
+
+请你统计每个科目最大同时在线人数（按course\_id排序），以上数据的输出结果如下：
+
+|course_id |max_num|
+|:-------|:-------|
+|1             |4           |
+|2            |4           |
+|3            |3           |
+
+Solution:
+
+```sql
+WITH act AS (
+    SELECT user_id, course_id, in_datetime AS dt, 1 AS act
+    FROM attend_tb
+    UNION
+    SELECT user_id, course_id, out_datetime AS dt, -1 AS act
+    FROM attend_tb
+)
+
+SELECT c.course_id, c.course_name, MAX(t.max_num) AS max_num
+FROM (
+    SELECT course_id, SUM(act) OVER(PARTITION BY course_id ORDER BY dt) AS max_num
+    FROM act
+) AS t
+LEFT JOIN course_tb AS c
+ON t.course_id = c.course_id
+GROUP BY c.course_id, c.course_name
+```
+
 
 ## 参考资料
 

@@ -99,7 +99,7 @@ Return the remainder of x/y:
 - `x MOD y`
 - `x % y`
 
-## 日期函数 Functions About Dates
+## 日期函数 Functions About Dates AND Time
 
 - `YEAR()`, `MONTH()`, `DAY()`
 - `DATE_FORMAT(date, '%Y-%m') `
@@ -111,6 +111,27 @@ WHERE YEAR(date) = 2025
 GROUP BY job, DATE_FORMAT(date, '%Y-%m')
 ORDER BY mon DESC, cnt DESC
 ```
+- `TIME()`: Extract the time from a date
+
+```sql
+SELECT TIME("2017-08-15 19:30:10");
+/*
+It outputs 19:30:10
+*/
+```
+
+- `TIMESTAMPDIFF(unit,datetime_expr1,datetime_expr2)`
+
+	To get the time difference. E.g.
+
+```sql
+SELECT TIMESTAMPDIFF(MINUTE, '2021-12-01 19:00:00', '2021-12-01 19:28:00')
+/*
+It outputs 28.
+*/
+```
+
+
 - `CURDATE()`: current date
 
 ## 字符串函数 Functions About Strings
