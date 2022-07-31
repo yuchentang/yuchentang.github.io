@@ -4,6 +4,7 @@ sort: 2
 
 # Made in Hong Kong 香港制造
 
+<<<<<<< HEAD
 ![](../assets/images/MIHKUPDATED.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Op4HBWPiDyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -15,3 +16,8 @@ sort: 2
 你可以感受到他刻意展示着
 
 2022/07/29
+=======
+![](images/MIHKUPDATED.png)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Op4HBWPiDyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+>>>>>>> d3a132dd454973eb1431776b9ea1f2cbf0fa64b2
