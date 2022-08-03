@@ -4,7 +4,7 @@ Hi! I am Yuchen Tang. I am a master student majoring in statistics at Columbia U
 
 Here is my resume.
 
-<object data="assets/files/Yuchen Tang-ColumbiaU-StatisticsMA.pdf" type="application/pdf" width="95%" height="800px">
+<object data="assets/files/Yuchen_Tang_ColumbiaU-StatisticsMA.pdf" type="application/pdf" width="95%" height="800px">
 </object>
 
 <!--
