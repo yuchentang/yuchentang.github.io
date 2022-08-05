@@ -64,7 +64,7 @@ Another criterion: whether or not be incapable of learning incrementally.
 
 Michele Banko and Eric Brill (2001) : Very different Machine Learning algorithms, including fairly simple ones, performed almost identically well on a complex problem of natural language disambiguation 8 once they were given enough data.
 
-<img src="https://github.com/yuchentang/yuchentang.github.io/blob/main/assets/images/banko_2001.png?raw=true" alt="banko_2001" width="500"/>
+<img src="../assets/images/banko_2001.png" alt="banko_2001" width="500"/>
 
 ## No Free Lunch Theorem (NFL)
 

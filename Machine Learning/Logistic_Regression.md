@@ -9,7 +9,7 @@ Sigmoid function is a special form of the logistic function. It is like:
 
 $$\sigma(x) = \frac{1}{1+e^{-x}}=\frac{e^x}{1+e^x}$$
 
-<img src="https://github.com/yuchentang/yuchentang.github.io/blob/main/assets/images/sigmoid.png?raw=true">
+<img src="../assets/images/sigmoid.png">
 
 ## Logistic Regression Model
 

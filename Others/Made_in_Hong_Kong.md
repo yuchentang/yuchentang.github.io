@@ -7,7 +7,7 @@ sort: 2
 <img src="../assets/images/MIHKUPDATED.png" width="560"/>
 
 <video width="100%" controls>
-  <source src="../assets/iamges/Made_in_Hong_Kong_trailer_metrograph.mp4" type="video/mp4">
+  <source src="https://github.com/yuchentang/yuchentang.github.io/blob/main/assets/images/Made_in_Hong_Kong_trailer_metrograph.mp4?raw=true" type="video/mp4">
 </video>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Op4HBWPiDyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
