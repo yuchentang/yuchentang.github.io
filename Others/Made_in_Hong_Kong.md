@@ -4,6 +4,11 @@ sort: 2
 
 # Made in Hong Kong 香港制造
 
+Poster:
+
+<img src="../assets/images/MIHKUPDATED.png" width="560"/>
+
+
 Trailer on Youtube:
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
@@ -39,4 +44,3 @@ If you cannot play the video through the Youtube link for some reason, you can p
 唐雨辰 
 
 2022/07/29于纽约唐人街Metrograph
-<img src="../assets/images/MIHKUPDATED.png" width="560"/>
