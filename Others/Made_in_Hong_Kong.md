@@ -4,11 +4,11 @@ sort: 2
 
 # Made in Hong Kong 香港制造
 
-<img src="../assets/images/MIHKUPDATED.png" width="560"/>
+<img src="images/MIHKUPDATED.png" width="560"/>
 
 Trailer on Youtube:
 
-<iframe width="100%" src="https://www.youtube.com/embed/Op4HBWPiDyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Op4HBWPiDyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you cannot play the video through the Youtube link for some reason, you can play it here:
 <video width="100%" controls>
