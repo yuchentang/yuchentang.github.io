@@ -18,7 +18,7 @@ Trailer on Youtube:
 
 If you cannot play the video through the Youtube link for some reason, you can play it here:
 
-<video width="100%" controls poster="../assets/images/made-in-hong-kong.jpeg">
+<video preload width="100%" controls poster="../assets/images/made-in-hong-kong.jpeg">
   <source src="https://github.com/yuchentang/yuchentang.github.io/blob/main/assets/images/Made_in_Hong_Kong_trailer_metrograph.mp4?raw=true" type="video/mp4">
 </video>
 
