@@ -39,9 +39,12 @@ Here is the gradient descent for one step based one single training sample.
 
 <img src="../assets/images/logistic_gd_one_step.png">
 
-<img src="../assets/images/logistic_gd_m_sample.png">
+One step for m samples:
 
 ![](../assets/images/logistic_gd_m_sample.png)
 
+## Vectorization
 
+## References
 
+[1] Andrew Ng: Deep Learning
