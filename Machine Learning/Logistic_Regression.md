@@ -7,7 +7,7 @@ sort: 3
 ## Sigmoid Function
 Sigmoid function is a special form of the logistic function. It is like:
 
-$$\sigma(x) = \frac{1}{1+e^{-x}}=\frac{e^x}{1+e^x}$$
+$$\sigma(z) = \frac{1}{1+e^{-z}}=\frac{e^z}{1+e^z}$$
 
 <img src="../assets/images/sigmoid.png">
 
@@ -28,4 +28,20 @@ then we want $L$ is as small as possible, which means $\hat{y}$ is as small as p
 ## Cost Function: of the estimated parameters, on the whole traning set
 
 $$J(w,b)=\frac{1}{m}\sum_{i=1}^{m}L(\hat{y}^{(i)},y^{(i)})=-\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log\hat{y}^{(i)}+(1-y^{(i)})log(1-\hat{y}^{(i)})]$$
+
+## Gradient Descent
+
+We want to find $w, b$ that minimize $J(w, b)$. Here is an example that simplifies the situation.
+
+<img src="../assets/images/logistic_gd_example.png">
+
+Here is the gradient descent for one step based one single training sample.
+
+<img src="../assets/images/logistic_gd_one_step.png">
+
+<img src="../assets/images/logistic_gd_m_sample.png">
+
+![](../assets/images/logistic_gd_m_sample.png)
+
+
 
