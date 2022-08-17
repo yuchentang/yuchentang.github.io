@@ -18,6 +18,7 @@ $$\hat{y}=\sigma(w^Tx+b)$$
 ## Loss (Error) Function
 
 $$L(\hat{y},y)=-[ylog\hat{y}+(1-y)log(1-\hat{y})]$$
+
 If $y=1$, $L(\hat{y},y)=-log\hat{y}$,
 then we want $L$ is as small as possible, which means $\hat{y}$ is as large as possible. While $\hat{y}$ is an output of sigmoid function, so we want $\hat{y}$ is close to 1.
 
