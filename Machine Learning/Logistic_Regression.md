@@ -25,6 +25,7 @@ then we want $L$ is as small as possible, which means $\hat{y}$ is as large as p
 If $y=0$, $L(\hat{y},y)=-log(1-\hat{y})$,
 then we want $L$ is as small as possible, which means $\hat{y}$ is as small as possible. While $\hat{y}$ is an output of sigmoid function, so we want $\hat{y}$ is close to 0.
 
-Cost Function:
+## Cost Function:
+
 $$J(w,b)=\frac{1}{m}\sum_{i=1}^{m}L(\hat{y}^{(i)},y^{(i)})=-\frac{1}{m}\sum_{i=1}^{m}[y^{(i)}log\hat{y}^{(i)}+(1-y^{(i)})log(1-\hat{y}^{(i)})]$$
 
