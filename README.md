@@ -1,6 +1,6 @@
 # Towards A Data Scientist/Data Analyst Career
 
-Hi! I am Yuchen Tang. I am a master student majoring in statistics at Columbia University. I am planning to find a data analyst/data scientist related job. I would update my notes and anything else about me on this website. It is so nice to meet you here!
+Hi, I am Yuchen Tang! I am a master student majoring in statistics from Columbia University. I got my degree in summer 2022. I am planning to find a data analyst/data scientist related job. I would update my notes and anything else about me on this website. It is so nice to meet you here!
 
 Here is my latest resume. I will always keep it up-to-date here.
 
