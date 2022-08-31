@@ -4,7 +4,7 @@ Hi, I am Yuchen Tang! I am a master student majoring in statistics from Columbia
 
 Here is my latest resume. I will always keep it up-to-date here.
 
-<object data="assets/files/Yuchen_Tang_ColumbiaU_StatisticsMA.pdf" type="application/pdf" width="95%" height="800px">
+<object data="assets/files/Yuchen_Tang_ColumbiaU_StatisticsMA.pdf" type="application/pdf" width="95%" height="600px">
 </object>
 
 <!--
@@ -15,5 +15,5 @@ Here is my latest resume. I will always keep it up-to-date here.
 
 Here is the Chinese version. 这是简历的中文版本。我会始终将它保持为最新版本。
 
-<object data="assets/files/唐雨辰_哥伦比亚大学_统计学硕士.pdf" type="application/pdf" width="95%" height="800px">
+<object data="assets/files/唐雨辰_哥伦比亚大学_统计学硕士.pdf" type="application/pdf" width="95%" height="600px">
 </object>
