@@ -10,8 +10,20 @@ sort: 4
 
 ## Significance Test
 
+- **Null hypothesis** $H_0$: The test is designed to assess the strength of the evidence against the null hypothesis. Often the null hypothesis is a statement of “no difference.”
+- **Alternative hypothesis** $H_a$: The claim about the population that evidence is being sought for is the 
+The alternative is one-sided if it states that a parameter is larger or smaller than the null hypothesis value.
+It is two-sided if it states that the parameter is different from the null value (it could be either smaller or larger).
 
-'Absence of evidence is not evidence of absence.'
+The alternative hypothesis is the claim that researchers are usually trying to
+prove is true. However, they prove it is true by proving that the null
+hypothesis is false (rejecting the $H_0$). If the null hypothesis is false, then its opposite, the alternative hypothesis, must be true.
+
+
+### 'Absence of evidence is not evidence of absence.'
+
+Sometimes we may say the null hypothesis $H_0$ is true, or the alternative hypothesis $H_a$ is true when we reject the null. 
+
 
 ## Type I and II Error
 
