@@ -2,6 +2,6 @@
 sort: 6
 ---
 
-# 博客搭建
+# Building A Blog
 
 {% include list.liquid all=true %}
