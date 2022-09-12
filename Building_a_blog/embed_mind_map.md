@@ -16,3 +16,5 @@ sort: 1
 ```html
 <iframe src="https://www.xmind.net/embed/******" width="900px" height="540px" frameborder="0" scrolling="no"></iframe>
 ```
+
+<iframe src="https://www.xmind.net/embed/iR7YAt" width="900px" height="540px" frameborder="0" scrolling="no"></iframe>
