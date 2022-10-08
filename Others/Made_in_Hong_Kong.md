@@ -18,7 +18,7 @@ Trailer on Youtube:
 
 If you cannot play the video through the Youtube link for some reason, you can play it here:
 
-<iframe width = "100%" src="//player.bilibili.com/player.html?aid=218837149&bvid=BV128411x7DY&cid=855528686&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe height="400" src="//player.bilibili.com/player.html?aid=218837149&bvid=BV128411x7DY&cid=855528686&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 
 <!--
