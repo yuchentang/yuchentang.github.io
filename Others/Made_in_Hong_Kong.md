@@ -18,6 +18,11 @@ Trailer on Youtube:
 
 If you cannot play the video through the Youtube link for some reason, you can play it here:
 
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class='embed-container'>
+<iframe src='//player.bilibili.com/player.html?aid=218837149&bvid=BV128411x7DY&cid=855528686&page=1' title="Bilibili video player" frameborder='0' allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <iframe height="400" src="//player.bilibili.com/player.html?aid=218837149&bvid=BV128411x7DY&cid=855528686&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 
