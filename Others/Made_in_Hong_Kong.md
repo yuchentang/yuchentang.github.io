@@ -18,9 +18,14 @@ Trailer on Youtube:
 
 If you cannot play the video through the Youtube link for some reason, you can play it here:
 
+<iframe src="//player.bilibili.com/player.html?aid=218837149&bvid=BV128411x7DY&cid=855528686&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+
+<!--
 <video preload width="100%" controls poster="../assets/images/made-in-hong-kong.jpeg">
   <source src="https://github.com/yuchentang/yuchentang.github.io/blob/main/assets/images/Made_in_Hong_Kong_trailer_metrograph.mp4?raw=true" type="video/mp4">
 </video>
+-->
 
 ## 说在前面
 
