@@ -20,7 +20,7 @@ If you cannot play the video through the Youtube link for some reason, you can p
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 <div class='embed-container'>
-<iframe src='//player.bilibili.com/player.html?aid=218837149&bvid=BV128411x7DY&cid=855528686&page=1' title="Bilibili video player" frameborder='0' allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src='//player.bilibili.com/player.html?aid=262492787&bvid=BV1YY411Z7bj&cid=884482023&page=1' title="Bilibili video player" frameborder='0' allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <!--
