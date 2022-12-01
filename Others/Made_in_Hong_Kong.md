@@ -49,6 +49,5 @@ If you cannot play the video through the Youtube link for some reason, you can p
 
 <br/>
 <br/>
-<br/>
 <p align="right">唐雨辰</p>
 <p align="right">2022/07/29于纽约唐人街Metrograph</p>
