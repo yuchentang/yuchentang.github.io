@@ -48,6 +48,7 @@ If you cannot play the video through the Youtube link for some reason, you can p
 仰视的角度是不够自然的，这使得这部电影像对这群青年生活的特写但又是旁观，是一种审视的角度。并且，微微自下而上的角度产生了一种坠落感，像一个漩涡一样慢慢的把他们的生命拖入这个黑洞之中。
 
 
-唐雨辰 
 
-2022/07/29于纽约唐人街Metrograph
+
+<p align="right">唐雨辰</p>
+<p align="right">2022/07/29于纽约唐人街Metrograph</p>
