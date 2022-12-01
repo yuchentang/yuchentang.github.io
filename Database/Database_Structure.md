@@ -3,7 +3,7 @@ sort: 1
 ---
 
 
-# OLTP V.S. OLAP
+# OLTP v.s. OLAP
 
 Two types of data processing systems
 
