@@ -45,6 +45,12 @@ One step for m samples:
 
 ## Vectorization
 
+## From Binary to Multi-class classification
+
+### One-vs-rest
+
+### Multinomial probability distribution
+
 ## References
 
 [1] Andrew Ng: Deep Learning
