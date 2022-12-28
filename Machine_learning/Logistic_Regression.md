@@ -51,6 +51,8 @@ One step for m samples:
 
 ### Multinomial probability distribution
 
+## Weight of Evidence (WOE) and Information Value (IV)
+
 ## References
 
 [1] Andrew Ng: Deep Learning
