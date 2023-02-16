@@ -31,10 +31,10 @@ VALUES
     (2, 'NICK', 'WAHLBERG', '2006-02-15 12:34:33');
 ```
 
-In MySQL, When using `INSERT IGNORE INTO table VALUES...`: 如果存在数据,则忽略。
+In MySQL, When using `INSERT IGNORE INTO table VALUES...`: 如果存在错误，则忽略掉错误部分，其余部分仍会执行。
 
 ```sql
-insert ignore into actor 
+insert ignore into actor
 values("3","ED","CHASE","2006-02-15 12:34:33");
 ```
 
@@ -80,6 +80,8 @@ Also the LIMIT part can also be written as
 ```sql
 LIMIT row_count OFFSET offset
 ```
+
+Attention: `row_count`表示开始行索引，默认是0.
 
 **LIMIT + DISTINCT clauses: unique rows**
 

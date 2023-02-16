@@ -7,7 +7,7 @@ sort: 3
 ## `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`
 ### Using ROW_NUMBER() for finding nth highest value per group
 
-The following example shows you how to find the employees whose have the highest salary in their departments:
+The following example shows you how to find the employees who have the highest salary in their departments:
 
 ```sql
 -- find the highest salary per department
