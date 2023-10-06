@@ -1,6 +1,6 @@
 # Towards A Data Scientist/Data Analyst Career And 天天明朗
 
-Hi, I am Yuchen Tang! I am a master student majoring in statistics from Columbia University. I got my degree in summer 2022. I am planning to find a data analyst/data scientist related job. I just get started to build this website so I am really sorry that a lot of things are missing. I would update my notes and anything else about me on this website. It is so nice to meet you here!
+Hi, I am Yuchen Tang! I am a data analyst in Shanghai. I got my master's degree in statistics at Columbia University in summer 2022. I just get started to build this website so I am really sorry that a lot of things are missing. I would update my notes and anything else about me on this website. It is so nice to meet you here!
 
 以后我养一只狗狗的话，我就给他取名叫明天。他应该会是一只走路连蹦带跳的狗狗，碰到烦恼的事就撒腿跑开。他最好能比我更擅长表达爱。不过不擅长也不要紧，我知道他会很认真的爱我。
 
