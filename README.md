@@ -1,18 +1,3 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-<script>
-VANTA.BIRDS({
-  el: "#your-element-selector",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00
-})
-</script>
-
 # Towards A Data Scientist/Data Analyst Career And 天天明朗
 
 Hi, I am Yuchen Tang! I am a data analyst in Shanghai. I got my master's degree in statistics at Columbia University in summer 2022. I just get started to build this website so I am really sorry that a lot of things are missing. I would update my notes and anything else about me on this website. It is so nice to meet you here!
